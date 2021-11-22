@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms & Input</title>
+</head>
+<body>
+    <form action="process.php"></form>
+<!--    text -->
+<div>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" value="John Doe">
+</div>
+<!--    email-->
+<div>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="Enter an Email">
+</div>
+<!--    testarea -->
+<div>
+    <label for="meassage">Message</label><br>
+    <textarea name="message" id="message" cols="50" rows="5"></textarea>
+</div>
+<div>
+    <label for="sex">Sex</label>
+    <select name="sex" id="sex">
+    <option value="male">Male</option>
+    <option value="female" selected>Female</option>
+    <option value="other">Other</option>
+    </select>
+</div>
+<div>
+    <label for="age">Age</label><br>
+    <input type="number" name="age" id="age">
+</div>
+<!--    Date -->
+<div>
+    <label for="birthdate">Birthdate</label><br>
+    <input type="date" name="birthdate" id="birthdate">
+</div>
+<!--    Radio -->
+    <div>
+        <label for="membership">Membership</label><br>
+        <input type="radio" name="membership" value="simple" id="membership">Simple
+        <input type="radio" name="membership" value="standard" id="membership" checked>Standard
+        <input type="radio" name="membership" value="super" id="membership">Super
+    </div>
+<!--    Checkbox -->
+    <div>
+        <label for="membership">I Like...</label><br>
+        <input type="checkbox" name="likes" value="bike" id="membership">Bike
+        <input type="checkbox" name="likes" value="car" id="membership">Car
+        <input type="checkbox" name="likes" value="boat" id="membership">Boat
+    </div>
+<!--    Input submit -->
+    <input type="submit" value="Submit">
+<!--    Input using button submit tag-->
+    <button type="submit">Submit</button>
+<!-- reset button -->
+    <button type="reset">Reset</button>
+
+</body>
+</html>
+
+
+<!--
+notes:
+These will give you a pre entered field in your form. The user will be able to change selection
+Value
+placeholder
+selected
+checked
+
+radio can select one only
+checkbox more than one can be checked
+
+esc- brings you back to your cursor
+
+
+
+
+
+-->
